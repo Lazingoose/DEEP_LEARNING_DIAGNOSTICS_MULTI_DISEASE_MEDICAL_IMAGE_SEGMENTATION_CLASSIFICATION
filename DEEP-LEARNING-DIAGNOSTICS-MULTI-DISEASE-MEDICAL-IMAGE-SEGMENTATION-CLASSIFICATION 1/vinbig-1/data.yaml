@@ -1,0 +1,25 @@
+names:
+- Aortic enlargement
+- Atelectasis
+- Calcification
+- Cardiomegaly
+- Consolidation
+- ILD
+- Infiltration
+- Lung Opacity
+- Nodule-Mass
+- Other lesion
+- Pleural effusion
+- Pleural thickening
+- Pneumothorax
+- Pulmonary fibrosis
+nc: 14
+roboflow:
+  license: CC BY 4.0
+  project: vinbig-oerlk
+  url: https://universe.roboflow.com/pet-projects/vinbig-oerlk/dataset/1
+  version: 1
+  workspace: pet-projects
+test: ../test/images
+train: vinbig-1/train/images
+val: vinbig-1/valid/images
